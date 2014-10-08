@@ -147,6 +147,7 @@ public class MigLayout extends ViewGroup implements WrapperFactory {
             try {
                 final Field field = Grid.class.getDeclaredField("debugRects");
                 field.setAccessible(true);
+                @SuppressWarnings("unchecked")
                 ArrayList<int[]> debugRects = (ArrayList<int[]>)field.get(grid);
                 if(debugRects!=null){
                     drawLayoutCell(canvas);
