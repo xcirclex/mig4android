@@ -1,6 +1,7 @@
 package com.saynomoo.mig4android.test;
 
 import android.widget.TextView;
+
 import com.saynomoo.mig4android.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
 

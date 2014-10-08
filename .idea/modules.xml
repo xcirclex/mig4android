@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/examples/examples.iml" filepath="$PROJECT_DIR$/examples/examples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mig4android/mig4android.iml" filepath="$PROJECT_DIR$/mig4android/mig4android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project/project.iml" filepath="$PROJECT_DIR$/project/project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/root.iml" filepath="$PROJECT_DIR$/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mig4android.iml" filepath="$PROJECT_DIR$/mig4android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mig4android/mig4android-mig4android.iml" filepath="$PROJECT_DIR$/mig4android/mig4android-mig4android.iml" />
     </modules>
   </component>
 </project>

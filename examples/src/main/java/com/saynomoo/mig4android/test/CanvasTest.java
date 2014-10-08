@@ -1,14 +1,12 @@
 package com.saynomoo.mig4android.test;
 
-import android.graphics.Canvas;
 import android.opengl.GLSurfaceView;
+
 import com.saynomoo.mig4android.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
 
 import javax.microedition.khronos.egl.EGLConfig;
-import javax.microedition.khronos.opengles.GL;
 import javax.microedition.khronos.opengles.GL10;
-import javax.microedition.khronos.opengles.GL11;
 
 public class CanvasTest extends MigActivity {
     @Override

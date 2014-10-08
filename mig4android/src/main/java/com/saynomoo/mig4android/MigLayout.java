@@ -7,10 +7,21 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import net.miginfocom.layout.*;
+
+import net.miginfocom.layout.AC;
+import net.miginfocom.layout.CC;
+import net.miginfocom.layout.ComponentWrapper;
+import net.miginfocom.layout.ConstraintParser;
+import net.miginfocom.layout.Grid;
+import net.miginfocom.layout.LC;
+import net.miginfocom.layout.LayoutCallback;
+import net.miginfocom.layout.LayoutUtil;
+import net.miginfocom.layout.PlatformDefaults;
 
 import java.lang.reflect.Field;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 /*
  * License (BSD):

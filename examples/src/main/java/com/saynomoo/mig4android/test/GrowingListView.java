@@ -1,15 +1,12 @@
 package com.saynomoo.mig4android.test;
 
 import android.R;
-import android.os.Handler;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import com.saynomoo.mig4android.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
 
 import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
 
 public class GrowingListView extends MigActivity {
     @Override

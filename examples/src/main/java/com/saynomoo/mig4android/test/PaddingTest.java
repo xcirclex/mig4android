@@ -1,16 +1,9 @@
 package com.saynomoo.mig4android.test;
 
-import android.R;
-import android.graphics.Color;
-import android.graphics.PorterDuff;
-import android.opengl.GLSurfaceView;
-import android.view.View;
 import android.widget.Button;
+
 import com.saynomoo.mig4android.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
-
-import javax.microedition.khronos.egl.EGLConfig;
-import javax.microedition.khronos.opengles.GL10;
 
 public class PaddingTest extends MigActivity {
     @Override

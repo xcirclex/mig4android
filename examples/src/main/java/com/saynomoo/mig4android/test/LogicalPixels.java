@@ -3,6 +3,7 @@ package com.saynomoo.mig4android.test;
 import com.saynomoo.mig4android.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
 import com.saynomoo.mig4android.ViewGroupWrapper;
+
 import net.miginfocom.layout.PlatformDefaults;
 
 public class LogicalPixels extends MigActivity {

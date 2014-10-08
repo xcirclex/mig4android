@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
+
 import com.saynomoo.mig4android.resize.ComponentResizer;
-import net.miginfocom.layout.LayoutUtil;
 
 public abstract class MigActivity extends Activity {
 

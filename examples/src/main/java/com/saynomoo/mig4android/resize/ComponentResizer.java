@@ -7,9 +7,7 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import com.saynomoo.mig4android.MigLayout;
-import net.miginfocom.layout.CC;
-import net.miginfocom.layout.ConstraintParser;
-import net.miginfocom.layout.IDEUtil;
+
 
 public class ComponentResizer {
     public static void openResizer(final View view){
