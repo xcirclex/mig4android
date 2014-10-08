@@ -1,4 +1,6 @@
-package com.saynomoo.mig4android;
+package com.saynomoo.mig4android.examples;
+
+import com.saynomoo.mig4android.MigLayout;
 
 public class Growing extends MigActivity{
     @Override

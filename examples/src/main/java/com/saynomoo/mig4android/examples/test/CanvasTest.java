@@ -1,8 +1,8 @@
-package com.saynomoo.mig4android.test;
+package com.saynomoo.mig4android.examples.test;
 
 import android.opengl.GLSurfaceView;
 
-import com.saynomoo.mig4android.MigActivity;
+import com.saynomoo.mig4android.examples.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
 
 import javax.microedition.khronos.egl.EGLConfig;

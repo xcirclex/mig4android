@@ -1,10 +1,10 @@
-package com.saynomoo.mig4android.test;
+package com.saynomoo.mig4android.examples.test;
 
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.saynomoo.mig4android.MigActivity;
+import com.saynomoo.mig4android.examples.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
 
 public class NonRootMigLayout extends MigActivity {

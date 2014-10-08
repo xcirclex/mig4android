@@ -1,9 +1,9 @@
-package com.saynomoo.mig4android.test;
+package com.saynomoo.mig4android.examples.test;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.saynomoo.mig4android.R;
+import com.saynomoo.mig4android.examples.R;
 
 public class PaddingTest2 extends Activity {
     @Override

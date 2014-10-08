@@ -2,8 +2,8 @@ apply plugin: 'com.android.library'
 
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion '19.1.0'
+    compileSdkVersion 20
+    buildToolsVersion '20.0.0'
     defaultConfig {
         applicationId 'com.saynomoo.mig4android'
         minSdkVersion 4
@@ -16,13 +16,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    //see https://code.google.com/p/android/issues/detail?id=67350
-    android.packageBuildConfig = false
-    android.enforceUniquePackageName = false
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile "com.miglayout:miglayout-core:4.2@jar"
+    compile 'com.miglayout:miglayout-core:4.2@jar'
 }

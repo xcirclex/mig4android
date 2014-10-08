@@ -1,4 +1,4 @@
-package com.saynomoo.mig4android;
+package com.saynomoo.mig4android.examples;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,7 +1,7 @@
-package com.saynomoo.mig4android.test;
+package com.saynomoo.mig4android.examples.test;
 
 import android.widget.TextView;
-import com.saynomoo.mig4android.MigActivity;
+import com.saynomoo.mig4android.examples.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
 
 public class DynamicPreferredSize extends MigActivity {

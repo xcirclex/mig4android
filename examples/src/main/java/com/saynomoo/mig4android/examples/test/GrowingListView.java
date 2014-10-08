@@ -1,9 +1,9 @@
-package com.saynomoo.mig4android.test;
+package com.saynomoo.mig4android.examples.test;
 
 import android.R;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import com.saynomoo.mig4android.MigActivity;
+import com.saynomoo.mig4android.examples.MigActivity;
 import com.saynomoo.mig4android.MigLayout;
 
 import java.util.ArrayList;

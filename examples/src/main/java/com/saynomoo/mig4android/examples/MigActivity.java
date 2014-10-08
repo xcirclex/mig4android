@@ -1,4 +1,4 @@
-package com.saynomoo.mig4android;
+package com.saynomoo.mig4android.examples;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,7 +9,9 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.saynomoo.mig4android.resize.ComponentResizer;
+import com.saynomoo.mig4android.MigLayout;
+import com.saynomoo.mig4android.ViewWrapper;
+import com.saynomoo.mig4android.examples.resize.ComponentResizer;
 
 public abstract class MigActivity extends Activity {
 
@@ -19,7 +21,7 @@ public abstract class MigActivity extends Activity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         migLayout = createLayout();
-        setContentView(migLayout, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
+        setContentView(migLayout, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         toggleDebug(true);
     }
 

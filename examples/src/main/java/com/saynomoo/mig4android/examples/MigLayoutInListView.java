@@ -1,9 +1,11 @@
-package com.saynomoo.mig4android;
+package com.saynomoo.mig4android.examples;
 
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
+
+import com.saynomoo.mig4android.MigLayout;
 
 public class MigLayoutInListView extends MigActivity {
     @Override

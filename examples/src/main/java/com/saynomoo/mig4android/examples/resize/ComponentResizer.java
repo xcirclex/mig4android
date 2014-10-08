@@ -1,4 +1,4 @@
-package com.saynomoo.mig4android.resize;
+package com.saynomoo.mig4android.examples.resize;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

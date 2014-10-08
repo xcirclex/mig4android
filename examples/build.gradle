@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion '19.1.0'
+    compileSdkVersion 20
+    buildToolsVersion '20.0.0'
     defaultConfig {
-        applicationId 'com.saynomoo.mig4androidexamples'
+        applicationId 'com.saynomoo.mig4android.examples'
         minSdkVersion 7
         targetSdkVersion 20
         versionName '0.9.4'
@@ -16,9 +16,8 @@ android {
         }
     }
 
-    //see https://code.google.com/p/android/issues/detail?id=67350
-    android.packageBuildConfig = false
-    android.enforceUniquePackageName = false
+    productFlavors {
+    }
 }
 
 dependencies {

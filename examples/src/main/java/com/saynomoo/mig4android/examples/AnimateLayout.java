@@ -1,8 +1,10 @@
-package com.saynomoo.mig4android;
+package com.saynomoo.mig4android.examples;
 
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.saynomoo.mig4android.MigLayout;
 
 public class AnimateLayout extends MigActivity{
     @Override

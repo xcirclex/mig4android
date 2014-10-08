@@ -1,6 +1,6 @@
-package com.saynomoo.mig4android.test;
+package com.saynomoo.mig4android.examples.test;
 
-import com.saynomoo.mig4android.ActivityListActivity;
+import com.saynomoo.mig4android.examples.ActivityListActivity;
 
 public class Tests extends ActivityListActivity {
     Class[] activities = new Class[]{AbsolutePosition.class, LogicalPixels.class, NonRootMigLayout.class, TextWrap.class, TextWrap2.class, DynamicPreferredSize.class, WidthDeterminedFromSibling.class, GrowingListView.class, CanvasTest.class, PaddingTest.class, PaddingTest2.class};
